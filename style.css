@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Outfit;
+    src: url(/icon/Outfit-VariableFont_wght.ttf);
+}
+#body{
+    background-color: #0D1A2D;
+    width: 100vw;
+    height: 100vh;
+    
+}
+#card:hover{
+    background-color: #172e4a;
+}
+#card{
+   width: 260px;
+   height:480px;
+   padding: 25px;
+   transition: 300ms;
+   border-radius: 16px;
+   box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.474);
+   background-color: #14273F;
+   position:absolute;
+   inset: 0;
+   margin:auto;
+}
+#inside{
+    width: 100%;
+    border-radius: 16px;
+}
+#heading{
+    font-family: Outfit;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: larger;
+}
+#para{
+    color: white;
+    margin-bottom: 16px;
+    font-family: Outfit;
+    font-weight: 100;
+}
+#eth{
+color:#2DEBE4;
+display: inline;
+font-family: Outfit;
+}
+#day{
+    color:white;
+    display: inline;
+    font-family: Outfit;
+}
+#texts{
+    display: flex;
+    justify-content: space-between;
+}
+#line{
+    background-color: #36424D;
+    height:0.1px;
+    margin-top:16px;
+    margin-bottom:16px;
+    width:100%;
+    display:flex;
+}
+#avatar{
+    width:35px;
+    height:35px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#linetext{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    margin-left:16px;
+    font-family: Outfit;
+    font-weight: 100;
+}
